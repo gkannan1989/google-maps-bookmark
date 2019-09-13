@@ -4,7 +4,7 @@ Google map for react with search and bookmark CRUD operation using Ruby Rails
 <h2>Installation</h2>
 <p>
     <b>Step 1: <small>clone the repository</small></b>
-    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark</pre>
+    <pre>$ git clone https://github.com/gkannan1989/google-maps-bookmark.git</pre>
 </p>
 <br />
 <p>
