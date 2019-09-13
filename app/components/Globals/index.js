@@ -1,0 +1,3 @@
+/**
+ * @namespace components.Globals
+ */

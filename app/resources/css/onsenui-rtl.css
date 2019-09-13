@@ -1,0 +1,114 @@
+.switch,
+.toolbar--material__center,
+.radio-button,
+.list,
+.list-header,
+.list-title,
+.dialog,
+.dialog--material,
+.alert-dialog-title--material,
+.alert-dialog-content--material,
+.action-sheet-title--material,
+.action-sheet-button--material,
+.card,
+.toast__message {
+    text-align: right;
+}
+.alert-dialog-button--material {
+    float: left;
+}
+.action-sheet-icon--material {
+    float: right;
+}
+
+
+.list-item  {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.list-item {
+    padding-left: 0;
+    padding-right: 14px;
+}
+.list-item__center {
+    padding-right: 0;
+    padding-left: 6px;
+}
+.list-item__right {
+    padding-right: 0;
+    padding-left: 12px;
+}
+.list-item__left {
+    margin-left: auto;
+    margin-right: unset;
+    padding-right: 0;
+    padding-left: 14px;
+}
+.list-item--chevron__left {
+    padding-right: unset;
+    padding-left: 36px;
+}
+
+.list-header {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.list-item--chevron::before {
+    right: unset;
+    left: 16px;
+}
+.list-item--chevron::before, .list-item__expand-chevron {
+    border-left: 2px solid #c7c7cc;
+    border-top: 2px solid #c7c7cc;
+    border-right: none;
+    border-bottom: none;
+}
+
+.search-input {
+    padding-right: 28px;
+    padding-left: 8px;
+    background-position: calc(100% - 8px) center;
+}
+.search-input--material {
+    padding-right: 64px;
+    padding-left: 24px;
+    background-position: calc(100% - 18px) center;
+}
+.action-sheet-button--material {
+    padding-left: unset;
+    padding-right: 16px;
+}
+.action-sheet-icon--material {
+    margin-right: unset;
+    margin-left: 32px;
+}
+.action-sheet-title--material {
+    padding-left: unset;
+    padding-right: 16px;
+}
+.text-input--material__label {
+    right: 0;
+    left: unset;
+}
+.toast__message {
+    margin-right: 0;
+    margin-left: 16px;
+}
+.loading_show {
+    display: block;  
+    position: absolute;
+    background: transparent;
+    top: 45%;
+    z-index: 9999;
+    right: 50%
+  }
+  .loading_hide {
+    display: none;  
+    position: absolute;
+    background: transparent;
+    top: 50%;
+    z-index: 9999;
+    right: 50%
+  }
