@@ -22,7 +22,7 @@ const toasterConfig = {
   autoClose: 5000,
   hideProgressBar: false,
   closeOnClick: true,
-  pauseOnHover: true,
+  pauseOnHover: true
 };
 
 const toaster = (status, message, position) => {
