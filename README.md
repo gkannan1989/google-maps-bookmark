@@ -58,3 +58,30 @@ $ npm install</pre>
     <pre>$ npm run generate-docs -r app/</pre>
     after generating docs, you can see them in docs directory in projects root
 </p>
+
+
+Guideline Questions
+- How do you handle configuration values? What if those values change?
+   - In this project, we will have the below environment variables, which drives the entire site third party integration core.
+   
+     GOOGLE_MAP_API_KEY="<key used for rendering map on client side>" 
+	   SERVICE_ENDPOINT="<server endpoint>"
+	   SERVICE_PORT="<server port>"
+	   SUGGESTION_PATH="<suggestion api>"
+	   BOOKMARK_PATH="<bookmark api>"
+	   
+	 - ultimate goal is to change one place and keep reference everywhere(required). only change on this .env file and restart the application can do the magic :)
+   
+- What happens if we encounter an error with the third-party API integration?
+     - front-end will show the third party server response message(any) or fallback request(any), in some case no response then we can show default error message which configured on front-end.
+	 
+- Will it also break our application, or are they handled accordingly?
+     - Front end is dependent on the back-end in most of the cases, but how ever it should have its own shape and quality to behave independently, in case of server unavailable scenario also we still can show the application with proper user understandable error messages. 
+
+- Now we will need to change the third-party geocoder API to another one. How can we
+change our current solution so that we can make this change as seamless as possible? Or
+how will we change (or refactor) our solution so that any future changes with the third-party
+integration is only done in isolation?
+     - We need to change only endpoint configured on the .env file in our case, there are two case, 
+	 1. server returns the data(response structure) exactly as returned by third party service, then changes only .env file to point new api do the magic :)
+	 2. In case if server returns differnent response structure then we need to write a adaptor which will convert new server response format of data into exiting third party modal data. no code change required only .env to point new enpoint and one adaptor on front-end which can do the magic :)
