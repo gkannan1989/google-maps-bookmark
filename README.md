@@ -19,7 +19,15 @@ $ npm install</pre>
 </p>
 <br />
 <p>
-    <b>Step 3: <small>run the project</small></b>
+    <b>Step 3: <small>Add google map api key env</small></b>
+    <br />rename .env.example to .env or use this command
+    <pre>$ mv .env.example .env</pre>
+    then put your google api key in .env
+    <pre>GOOGLE_MAP_API_KEY='PUT YOUR GOOGLE API KEY HERE'</pre>
+</p>
+<br />
+<p>
+    <b>Step 4: <small>run the project</small></b>
     <br />use bellow command to start the project.
     <pre>$ npm start</pre>
     <b>Note: default port is 3001</b>
