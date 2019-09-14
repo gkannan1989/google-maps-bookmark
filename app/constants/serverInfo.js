@@ -1,8 +1,7 @@
-const SERVER_INFO = {   
-    uri: 'http://localhost:3000',
-    domain: 'http://localhost',
-    port: '3000'
+const SERVER_INFO = {
+  uri: 'https://serve-bookmark.herokuapp.com',
+  domain: 'https://serve-bookmark.herokuapp.com',
+  port: '3000',
 };
 
 export default SERVER_INFO;
-  
