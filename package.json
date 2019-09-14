@@ -23,7 +23,7 @@
     "build": "cross-env NODE_ENV=production env-cmd .env webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",
     "build:clean": "rimraf ./build",
     "build:dll": "node ./internals/scripts/dependencies.js",
-    "start": "cross-env NODE_ENV=development node server",
+    "start": "cross-env NODE_ENV=development env-cmd .env node server",
     "start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",
     "start:production": "npm run test && npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node server",
@@ -140,7 +140,7 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
-    "testURL": "http://m.snapp.market/authenticate/login"
+    "testURL": ""
   },
   "dependencies": {
     "axios": "^0.18.0",
