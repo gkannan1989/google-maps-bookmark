@@ -1,4 +1,7 @@
 # google-map-bookmark
+
+Welcome, this React project is dependent on Ruby server services - https://github.com/gkannan1989/google-maps-bookmark-server
+
 Google map for react with search and bookmark CRUD operation using Ruby Rails
 
 <h2>Installation</h2>
