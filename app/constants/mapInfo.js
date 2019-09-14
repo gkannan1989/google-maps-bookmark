@@ -1,11 +1,11 @@
-const googleMapApiKey = process.env.GOOGLE_MAP_API_KEY;
+const googleMapApiKey = 'AIzaSyBiAJBK9gGHhTW1-TAdCczJ2Sf1maih8ZQ';
 
-const MAP_INFO = { 
+const MAP_INFO = {
   key: googleMapApiKey,
   zoom: 14,
   defaultLocation: {
-    lat: 52.5200,
-    lng: 13.4050,
+    lat: 52.52,
+    lng: 13.405,
   },
 };
 
