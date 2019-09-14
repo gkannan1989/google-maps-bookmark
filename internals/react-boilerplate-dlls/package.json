@@ -1,0 +1,9 @@
+{
+  "name": "react-boilerplate-dlls",
+  "private": true,
+  "author": "Kannan Ganesan",
+  "repository": {
+    "type": "git"
+  },
+  "version": "1.0.0"
+}
