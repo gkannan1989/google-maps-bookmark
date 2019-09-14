@@ -45,8 +45,7 @@ $ npm install</pre>
 <p>
     use bellow command to export the project.
     <pre>$ npm run build</pre>
-</p>
-<br />
+</p> 
 <h2>Test</h2>
 <p>
     use bellow command to run test cases.
@@ -58,7 +57,6 @@ $ npm install</pre>
     <pre>$ npm run generate-docs -r app/</pre>
     after generating docs, you can see them in docs directory in projects root
 </p>
-
 
 Guideline Questions
 
