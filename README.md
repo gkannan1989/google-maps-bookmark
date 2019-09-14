@@ -4,6 +4,8 @@ Welcome, this React project is dependent on Ruby server services - https://githu
 
 Google map for react with search and bookmark CRUD operation using Ruby Rails
 
+<img src="https://serving.photos.photobox.com/928950671763f2c6f0bfc94e00b6d7721b91502b59aa77e65e149510b7ac5793bbfe8d6c.jpg" />
+
 <h2>Installation</h2>
 <p>
     <b>Step 1: <small>clone the repository</small></b>
