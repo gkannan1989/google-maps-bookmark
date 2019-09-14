@@ -37,7 +37,7 @@ const ReactBoilerplate = {
       include: ['core-js', 'eventsource-polyfill', 'babel-polyfill', 'lodash'],
 
       // The path where the DLL manifest and bundle will get built
-      path: resolve('../internals/webpack/react-boilerplate-dlls'),
+      path: resolve('../node_modules/react-boilerplate-dlls'),
     },
 
     entry(pkg) {
