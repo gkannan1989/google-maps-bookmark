@@ -72,7 +72,7 @@ const api = {
    * @return void
    */
   deleteSearchHistory(payload) { 
-    const url = URI.BOOKMARK_END_POINT + payload;
+    const url = URI.BOOKMARK_END_POINT + '/' + payload;
     const config = axiosConfig({ url, method: 'DELETE'});
     return axios(config);
   }
