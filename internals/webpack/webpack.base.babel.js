@@ -126,7 +126,11 @@ module.exports = options => ({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV),
         BASE_API: JSON.stringify(process.env.BASE_API),
-        GOOGLE_MAP_API_KEY: JSON.stringify(process.env.GOOGLE_MAP_API_KEY)
+        GOOGLE_MAP_API_KEY: JSON.stringify(process.env.GOOGLE_MAP_API_KEY),
+        SERVICE_PORT: JSON.stringify(process.env.SERVICE_PORT), 
+        SERVICE_ENDPOINT: JSON.stringify(process.env.SERVICE_ENDPOINT),
+        SUGGESTION_PATH: JSON.stringify(process.env.SUGGESTION_PATH),
+        BOOKMARK_PATH: JSON.stringify(process.env.BOOKMARK_PATH)
       },
     }),
   ]),
