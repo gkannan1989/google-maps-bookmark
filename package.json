@@ -90,7 +90,7 @@
     }
   },
   "dllPlugin": {
-    "path": "node_modules/react-boilerplate-dlls",
+    "path": "internals/webpack/react-boilerplate-dlls",
     "exclude": [
       "chalk",
       "compression",
