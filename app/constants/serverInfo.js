@@ -1,7 +1,7 @@
 const SERVER_INFO = {
-  uri: 'http://localhost:3000',
-  domain: 'http://localhost',
-  port: '3000',
+  uri: `${process.env.SERVICE_ENDPOINT}:${process.env.SERVICE_PORT}`,
+  domain: process.env.SERVICE_ENDPOINT,
+  port: process.env.SERVICE_ENDPOINT,
 };
 
 export default SERVER_INFO;
