@@ -1,8 +1,7 @@
 import axios from 'axios';
 import axiosConfig from '../../utils/axiosConfig';
 
-import URI from '../../constants/uri';
-import SERVER_INFO from '../../constants/serverInfo';
+import URI from '../../constants/uri'; 
 
   /**
    * handles core part of server integration 
@@ -41,7 +40,7 @@ const api = {
    * @return void
    */
   getSearchHistory() {
-    const url = SERVER_INFO.uri + '/api/v1/bookmarks';
+    const url = URI.BOOKMARK_END_POINT;
     const config = axiosConfig({ url, method: 'GET' });
     return axios(config);
   },
@@ -56,7 +55,7 @@ const api = {
    * @return void
    */
   setSearchHistory(payload) {  
-    const url = (SERVER_INFO.uri + '/api/v1/bookmarks' + 
+    const url = (URI.BOOKMARK_END_POINT + 
     (payload && payload.id ? '/'+payload.id : '')); 
     const config = axiosConfig({ url, method: (
       payload && payload.id ? 'PUT' : 'POST'), data:{bookmark:payload}
@@ -73,7 +72,7 @@ const api = {
    * @return void
    */
   deleteSearchHistory(payload) { 
-    const url = SERVER_INFO.uri + '/api/v1/bookmarks/' + payload;
+    const url = URI.BOOKMARK_END_POINT + payload;
     const config = axiosConfig({ url, method: 'DELETE'});
     return axios(config);
   }
