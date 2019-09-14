@@ -37,7 +37,7 @@ $ npm install</pre>
        
    Run -> (Window+R) key - 
        
-   <pre>chrome.exe --user-data-dir=D:/ChromeDevSession" --disable-web-security --ignore-certificate-errors</pre> 
+   <pre>chrome.exe --user-data-dir="D:/ChromeDevSession" --disable-web-security --ignore-certificate-errors</pre> 
        
    you can now paste the URL http://localhost:3001 in the launched chrome.
 </p>
