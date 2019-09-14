@@ -1,6 +1,6 @@
 const SERVER_INFO = {
-  uri: 'http://localhost:3000',
-  domain: 'http://localhost',
+  uri: 'https://serve-bookmark.herokuapp.com',
+  domain: 'https://serve-bookmark.herokuapp.com',
   port: '3000',
 };
 
