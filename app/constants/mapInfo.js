@@ -1,4 +1,4 @@
-const googleMapApiKey = 'AIzaSyBiAJBK9gGHhTW1-TAdCczJ2Sf1maih8ZQ';
+const googleMapApiKey = process.env.GOOGLE_MAP_API_KEY; //key - 'AIzaSyBiAJBK9gGHhTW1-TAdCczJ2Sf1maih8ZQ';
 
 const MAP_INFO = {
   key: googleMapApiKey,
