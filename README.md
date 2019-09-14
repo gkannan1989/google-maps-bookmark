@@ -41,6 +41,10 @@ $ npm install</pre>
 </p>
 
 <br />
+<h2>Test</h2>
+<p>
+    <pre>npm run generate</pre>
+</p>
 <h2>Docs</h2>
 <p>
     to see the components documentation run bellow command
