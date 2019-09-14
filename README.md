@@ -43,7 +43,7 @@ $ npm install</pre>
 <h2>Test</h2>
 <p>
     use bellow command to run test cases.
-    <pre>npm run generate</pre>
+    <pre>$ npm run generate</pre>
 </p>
 <h2>Docs</h2>
 <p>
