@@ -44,6 +44,9 @@ const StyledTrackButton = Styled.button`
   .locationIco{
     height:25px;
   } 
+  img:hover {
+    cursor: pointer;
+  }
   .loadingshow {
     display: block;  
     position: absolute;
