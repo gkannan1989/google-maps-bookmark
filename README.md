@@ -58,6 +58,35 @@ $ npm install</pre>
     after generating docs, you can see them in docs directory in projects root
 </p>
 
+<p>
+<b>Features included - v1.0</b>
+  
+1. google address suggestion - /api/search/suggestion?query=germany
+  
+2. google address locator - /api/search/suggestion?query=germany
+
+3. address bookmark - /api/v1/bookmark
+
+4. add bookmark history - /api/v1/bookmark
+
+5. edit/update bookmark hitory - /api/v1/bookmark
+
+6. delete bookmark hitory - /api/v1/bookmark
+
+7. error handling on updating bookmark 
+
+8. not allowing user to bookmark more then once
+
+9. user can be present with current location (if they allow location)
+
+10. can move the user to their current location
+
+11. by tapping bookmark user can be moved to their selected bookmarked location
+
+12. unexpected server error handling on front-end
+
+</p>
+
 Guideline Questions
 
 <b>- How do you handle configuration values? What if those values change?</b>
