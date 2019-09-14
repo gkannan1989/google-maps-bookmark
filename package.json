@@ -195,7 +195,7 @@
     "warning": "4.0.1",
     "whatwg-fetch": "2.0.4"
     },
-    "devDependencies": {
+  "devDependencies": {
     "webpack": "4.12.0",
     "html-webpack-plugin": "3.2.0",
     "add-asset-html-webpack-plugin": "2.1.3",
