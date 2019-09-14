@@ -82,6 +82,6 @@ Guideline Questions
 change our current solution so that we can make this change as seamless as possible? Or
 how will we change (or refactor) our solution so that any future changes with the third-party
 integration is only done in isolation?
-     - We need to change only endpoint configured on the .env file in our case, there are two case, 
-	 1. server returns the data(response structure) exactly as returned by third party service, then changes only .env file to point new api do the magic :)
-	 2. In case if server returns differnent response structure then we need to write a adaptor which will convert new server response format of data into exiting third party modal data. no code change required only .env to point new enpoint and one adaptor on front-end which can do the magic :)
+     - There are two case, 
+         1. server returns the data(response structure) exactly as returned by third party service, then changes only .env file to point new api do the magic :)
+         2. In case if server returns differnent response structure then we need to write a adaptor which will convert new server response format of data into exiting third party modal data. no code change required only .env to point new enpoint and one adaptor on front-end which can do the magic :)
