@@ -87,7 +87,8 @@ $ npm install</pre>
 
 </p>
 
-Guideline Questions
+
+<b>Guideline Questions</b>
 
 <b>- How do you handle configuration values? What if those values change?</b>
 
