@@ -64,11 +64,11 @@ Guideline Questions
 - How do you handle configuration values? What if those values change?
    - In this project, we will have the below environment variables, which drives the entire site third party integration core.
    
-     GOOGLE_MAP_API_KEY="<key used for rendering map on client side>" 
-	   SERVICE_ENDPOINT="<server endpoint>"
-	   SERVICE_PORT="<server port>"
-	   SUGGESTION_PATH="<suggestion api>"
-	   BOOKMARK_PATH="<bookmark api>"
+         GOOGLE_MAP_API_KEY="<key used for rendering map on client side>" 
+         SERVICE_ENDPOINT="<server endpoint>"
+         SERVICE_PORT="<server port>"
+         SUGGESTION_PATH="<suggestion api>"
+         BOOKMARK_PATH="<bookmark api>"
 	   
 	 - ultimate goal is to change one place and keep reference everywhere(required). only change on this .env file and restart the application can do the magic :)
    
