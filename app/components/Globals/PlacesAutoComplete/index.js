@@ -430,8 +430,7 @@ class PlacesAutoComplete extends Component {
           onSetSearchHistory({
             data: placesBookmarkHistory[id], 
             id: currID,
-            onSuccess: results => {
-                this.handleToggleLoading(); 
+            onSuccess: results => { 
                 this.handleGetSearchHistory(results);
             },
             onFailed: message => {
