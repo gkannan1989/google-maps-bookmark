@@ -20,9 +20,7 @@ $ npm install</pre>
 <br />
 <p>
     <b>Step 3: <small>Add google map api key env</small></b>
-    <br />rename .env.example to .env or use this command
-    <pre>$ mv .env.example .env</pre>
-    then put your google api key in .env
+    put your google api key in .env
     <pre>GOOGLE_MAP_API_KEY='PUT YOUR GOOGLE API KEY HERE'</pre>
 </p>
 <br />
