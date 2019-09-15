@@ -39,7 +39,7 @@ $ npm install</pre>
        
    <pre>chrome.exe --user-data-dir="D:/ChromeDevSession" --disable-web-security --ignore-certificate-errors</pre> 
        
-   you can now paste the URL http://localhost:3001 in the launched chrome.
+   make sure your <a href="https://github.com/gkannan1989/google-maps-bookmark-server">google-maps-bookmark-server</a> is running, then you can now paste the URL http://localhost:3001 in the launched chrome.
 </p>
 
 <br />
