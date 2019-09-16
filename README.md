@@ -6,7 +6,7 @@ Google map for react with search and bookmark CRUD operation using Ruby Rails
 
 <img src="https://serving.photos.photobox.com/928950671763f2c6f0bfc94e00b6d7721b91502b59aa77e65e149510b7ac5793bbfe8d6c.jpg" />
 
-<h4>Core Front End Components</h4>
+<h4>Front End Architecture components</h4>
 <p>
 React - Front end 
   
@@ -24,7 +24,7 @@ Webpack - Bundling assets.
 </p>
 
 
-<h4>Backend</h4>
+<h4>Backend Architecture components</h4>
 <p>
 Rails - 6.0.0
   
