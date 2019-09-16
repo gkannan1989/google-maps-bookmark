@@ -14,7 +14,7 @@ Redux + Saga + axios - State management and interacting with Ruby Rails server.
 
 Jest + plop + Enzyme - Test Case, functional, component and snapshot based 
 
-Eslint - Webpack and Babel for React ESLint
+Eslint - Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code,
 
 Styled Components - Styling components 
 
