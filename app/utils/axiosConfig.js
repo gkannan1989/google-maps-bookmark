@@ -1,7 +1,7 @@
 const axiosConfig = ({
   url,
   method,
-  withCredentials = 'true',
+  withCredentials = false,
   data = {},
   headers = {},
 }) => ({
