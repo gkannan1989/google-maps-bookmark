@@ -6,6 +6,37 @@ Google map for react with search and bookmark CRUD operation using Ruby Rails
 
 <img src="https://serving.photos.photobox.com/928950671763f2c6f0bfc94e00b6d7721b91502b59aa77e65e149510b7ac5793bbfe8d6c.jpg" />
 
+<h4>Core Front End Components</h4>
+<p>
+React - Front end 
+  
+Redux + Saga + axios - State management and interacting with Ruby Rails server.
+
+Jest + plop + Enzyme - Test Case, functional, component and snapshot based 
+
+Eslint - Webpack and Babel for React ESLint
+
+Styled Components - Styling components 
+
+PropTypes - properties handling 
+
+Webpack - Bundling assets.
+</p>
+
+
+<h4>Backend</h4>
+<p>
+Rails - 6.0.0
+  
+Bundler - 2.0.2
+
+rack-cors - 1.0.3 - Handling Cors
+
+sqlite3 ~> 1.4 - SQL Lite for DB integration
+
+postgresql - DB for production
+</p>
+
 <h2>Installation</h2>
 <p>
     <b>Step 1: <small>clone the repository</small></b>
