@@ -41,7 +41,10 @@ const api = {
    */
   getSearchHistory() {
     const url = URI.BOOKMARK_END_POINT;
-    const config = axiosConfig({ url, method: 'GET' });
+    const config = axiosConfig({ url, method: 'GET', headers: {
+      'Content-Type':'application/x-www-form-urlencoded',
+      'Access-Control-Allow-Credentials':true
+    } });
     return axios(config);
   },
   /**
