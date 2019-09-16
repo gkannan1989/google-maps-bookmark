@@ -92,6 +92,13 @@ $ npm install</pre>
 </p>
 
 <p>
+<h2> Live demo </h2>
+<p>
+  Recommended to launch in web browser chrome by running the below command(because heroku has certification issue with cors CRUD action)
+  Open Window+R keys or Open Run task
+  <pre>chrome.exe --user-data-dir="D:/ChromeDevSession" --disable-web-security --ignore-certificate-errors<pre>
+  <a href="https://google-map-bookmark.herokuapp.com/">Live</a>
+</p>
 <b>Features included - v1.0</b>
   
 1. google address suggestion - /api/search/suggestion?query=germany
