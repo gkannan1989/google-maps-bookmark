@@ -63,13 +63,7 @@ $ npm install</pre>
     <pre>$ npm start</pre>
     
    Note: default port is configured as "3001"
-       
-   Please note: as we are using CRUD operation with cors domains recommending to launch the site using the below commend
-       
-   Run -> (Window+R) key - 
-       
-   <pre>chrome.exe --user-data-dir="D:/ChromeDevSession" --disable-web-security --ignore-certificate-errors</pre> 
-       
+   
    make sure your <a href="https://github.com/gkannan1989/google-maps-bookmark-server">google-maps-bookmark-server</a> is running, then you can now paste the URL http://localhost:3001 in the launched chrome.
 </p>
 
