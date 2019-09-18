@@ -91,6 +91,7 @@ $ npm install</pre>
 <p> 
   <a href="https://google-map-bookmark.herokuapp.com/">Demo</a>
 </p> 
+<p> Live recorded video - https://www.loom.com/share/3b3bd7eea3e34b4bb28015b4b67914e3</p>
 </p>
 
 
