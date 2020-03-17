@@ -162,7 +162,7 @@
     "leaflet-routing-machine": "^3.2.12",
     "lodash": "^4.17.14",
     "memory-cache": "^0.2.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.5",
     "moment": "^2.22.2",
     "moment-jalaali": "^0.8.1",
     "normalize-scroll-left": "^0.1.2",
